@@ -16,7 +16,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -49,7 +49,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', sans-serif;
     color: #252525;
 }
 
@@ -897,7 +897,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/banner.jpg);
     padding: 0;
 }
 
@@ -1439,4 +1439,9 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+
+
+.cover {
+	background-image: url(../img/cover.jpg);
 }
