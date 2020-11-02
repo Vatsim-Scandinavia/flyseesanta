@@ -1,0 +1,68 @@
+
+.bg-dark{
+    background-color: rgb(15,30,53) !important;
+}
+
+.cover{
+    height: 100vh;
+    margin-top: 70px;
+    padding-top: 70px;
+
+    text-align: center;
+
+    background: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover.routes{
+    margin-top: 0px;
+    padding-top: 25vh;
+    background: url(../img/routes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover.rovaniemi{
+    margin-top: 0px;
+    padding-top: 25vh;
+    background: url(../img/rovaniemi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover.kiruna{
+    margin-top: 0px;
+    padding-top: 25vh;
+    background: url(../img/kiruna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover.tromso{
+    margin-top: 0px;
+    padding-top: 25vh;
+    background: url(../img/tromso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p.desc{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+}
+
+p{
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, .nav-link{
+    font-family: Pacifico, sans-serif;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(15,30,53);
+}
