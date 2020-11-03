@@ -3,6 +3,20 @@
     background-color: rgb(15,30,53) !important;
 }
 
+.navbar{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.navbar-nav{
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+.navbar-brand{
+    font-family: Pacifico, Lato, sans-serif;
+}
+
 .cover{
     height: 100vh;
     margin-top: 70px;
@@ -58,7 +72,7 @@ p{
 }
 
 h1, h2, h3, h4, h5, .nav-link{
-    font-family: Pacifico, sans-serif;
+    font-family: Pacifico, Lato, sans-serif;
 }
 
 footer{
