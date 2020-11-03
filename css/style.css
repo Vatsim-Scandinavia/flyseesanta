@@ -3,10 +3,6 @@
     background-color: #011328 !important;
 }
 
-.navbar{
-    padding-left: 250px;
-    padding-right: 250px;
-}
 
 .navbar-nav{
     margin-right: 0 !important;
@@ -24,6 +20,10 @@
 .navbar-brand{
     color: #dfebeb !important;
     font-family: Pacifico, Lato, sans-serif;
+}
+
+.nav-item:first-child{
+    padding-top: 50px;
 }
 
 .cover{
@@ -71,7 +71,7 @@
 }
 
 p.desc{
-    width: 50%;
+    width: 80%;
     text-align: justify;
     margin: auto;
 }
@@ -90,7 +90,49 @@ footer{
     background-color: #011328;
 }
 
+/* Medium, tablets and up */
+@media (min-width: 768px) { 
 
+    .navbar{
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    p.desc{
+        width: 50%;
+        text-align: justify;
+        margin: auto;
+    }
+
+    .nav-item:first-child{
+        padding-top: 0;
+    }
+
+}
+
+/* Phones and small */
+@media (max-width: 767.98px) { 
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    p.lead{
+        font-size: 16px;
+    }
+
+}
+
+/* Old small shitphones */
+@media (max-width: 320px) { 
+    .cover{
+        height: 150vh;
+    }
+}
 
 /* CHRISTMAS LIGHTS */
 
