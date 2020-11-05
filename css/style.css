@@ -27,7 +27,8 @@
 }
 
 .cover{
-    height: 100vh;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
     margin-top: 70px;
     padding-top: 70px;
 
@@ -126,7 +127,8 @@ footer{
     }
 
     .cover{
-        height: 125vh;
+        height: 125vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 125);
     }
 
 }
@@ -134,7 +136,8 @@ footer{
 /* Old small shitphones */
 @media (max-width: 320px) { 
     .cover{
-        height: 150vh;
+        height: 150vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 150);
     }
 }
 
