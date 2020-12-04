@@ -90,10 +90,15 @@
                 If your airport or FIR is not listed, but you know that you are going to
                 pass a FIR listed below, please select the FIR to you will pass first, then select [other] as the
                 airport of departure and plan your routing thereafter to join with the suggested route.
+                <br><br>
+                This year's booking system is set up so the pilot can book an arrival slot into either of the event airports, departing from anywhere on the planet.
+                <a class="text-info" target="_blank" href="https://uc645814ecb3a88bcfd900fe4bde.dl.dropboxusercontent.com/cd/0/inline2/BEbUpu1AvIv5cYWJPpUuB4B2UDbPCbI7pDQd8GXbmxOVHtW8KouR532ne0EzDTe2PNYrZQCNfQHcQPH0aMjmE0ylr-Dg7D3U1vLhD5uTS0-WXHvBj2OnZHqMk8TKOOYzJ_r_i1uTlOYsPyPrVDMwyLO1p2MhgJD9ATfEP24sClE-G3drD49c9TCupKnjp2KSqQnYwECEm4BWryPerLzNuQIlP5cLkMthJluURx-J6mLqSyXqJDxBAuhQFoheNFu4k_4UNcczVqX8EvBPu4XFV7VIyCnEYsYfuH2dxIBn1Wxe3c_2PY1Hto8OA5ZG749eLoXPnMPBKPNNm95Zgq6isJl5dcKbv-F8HyPAzDbem3Igqg/file#">
+                    Read more more and book position here.
+                </a>
             </p>
 
-            <b>Bookings and routes will be available here soon. Please check back later</b>
-            <!--
+            <!--<b>Bookings and routes will be available here soon. Please check back later</b>-->
+            
             <b>Departure FIR: </b>
             <select name="fir-selector" @change="selectedDeparture=''" v-model="selectedFir" style="width: 220px;">
                 <option v-for="(value, property) in firs" v-bind:value="property">
@@ -118,7 +123,6 @@
                 <h2 class="pt-5">Route</h2>
                 <p style="white-space: pre-line;">{{selectedRoute}}</p>
             </div>
-            -->
 
         </div>
     </section>
