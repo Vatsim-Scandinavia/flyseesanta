@@ -46,6 +46,7 @@ const aerodromes =
   EGCC: 'Manchester',
   EGGP: 'Liverpool',
   EGGD: 'Bristol',
+  EINN: 'Shannon',
   EGGW: 'London Luton',
   EGKK: 'London Gatwick',
   EGLL: 'London Heathrow',
@@ -58,6 +59,8 @@ const aerodromes =
   ENGM: 'Oslo Gardermoen',
   ENTC: 'Tromsø',
   ENBR: 'Bergen',
+  ENVA: 'Trondheim',
+  ENZV: 'Stavanger',
   EPGD: 'Gdansk',
   EPWA: 'Warsaw',
   ESGG: 'Göterborg',
@@ -73,6 +76,9 @@ const aerodromes =
   UKBB: 'Kyiv',
   ULLI: 'St. Petersburg',
   UMMS: 'Minsk',
+  UUWW: 'Moscow Vnukovo',
+  UUDD: 'Moscow Domodedovo',
+  UUEE: 'Moscow Sheremetyevo',
   NEGTTFIR: 'Northern EGTT FIR',
   SEGTTFIR: 'Southern EGTT FIR',
 }
@@ -330,7 +336,7 @@ const routes =
    },
   EGTT: {
     EGNM: {
-      EFRO: "POL UP18 NATEB P15 GIVEM DCT LAMRO DCT NIVUN P5 ZOL T400 EGAGO DCT OSLAV DCT BEGDO DCT BESLA DCT MISMO DCT NEMGU",
+      EFRO: "[POL UP18 NATEB or NELSA DCT GASKO UP18 NATEB] P15 GIVEM DCT LAMRO DCT NIVUN P5 ZOL T400 EGAGO DCT OSLAV DCT BEGDO DCT BESLA DCT MISMO DCT NEMGU",
       ENTC: "JOIN AT/INCLUDE: NIGEX DCT BDO Z200 BARVI"
      },
     EGGD: {
@@ -354,7 +360,7 @@ const routes =
       ENTC: "JOIN AT/INCLUDE: NIGEX DCT BDO Z200 BARVI"
      },
      SEGTTFIR: {
-      EFRO: "LARGA M604 LARGA DCT INBOB M604 SVA M609 ULMUG M125 ELVOM DCT ROGED DCT GEVRU DCT SUN DCT ELBOG DCT BESLA DCT MISMO DCT NEMGU",
+      EFRO: "LEDGO M604 LARGA DCT INBOB M604 SVA M609 ULMUG M125 ELVOM DCT ROGED DCT GEVRU DCT SUN DCT ELBOG DCT BESLA DCT MISMO DCT NEMGU",
       ENTC: "JOIN AT/INCLUDE: NIGEX DCT BDO Z200 BARVI"
      },
     EGCC: {
