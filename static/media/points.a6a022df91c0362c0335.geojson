@@ -1,0 +1,1272 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.606666666666667, 60.51277777777778
+                ]
+            },
+            "properties": {
+                "name": "ROGED",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.697827777777778, 57.0
+                ]
+            },
+            "properties": {
+                "name": "DANKO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.908308333333333, 58.08449722222222
+                ]
+            },
+            "properties": {
+                "name": "SVA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.570288888888888, 59.18747222222222
+                ]
+            },
+            "properties": {
+                "name": "ULMUG",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.125, 59.67777777777778
+                ]
+            },
+            "properties": {
+                "name": "ELVOM",
+                "icao": "EFRO"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.329722222222221, 60.74277777777778
+                ]
+            },
+            "properties": {
+                "name": "GEVRU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.448722222222224, 62.52844444444444
+                ]
+            },
+            "properties": {
+                "name": "SUN",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.514833333333334, 65.16266666666666
+                ]
+            },
+            "properties": {
+                "name": "ELBOG",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.31025, 65.85752777777778
+                ]
+            },
+            "properties": {
+                "name": "BESLA",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.819444444444443, 66.17472222222223
+                ]
+            },
+            "properties": {
+                "name": "MISMO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6941666666667, 66.34
+                ]
+            },
+            "properties": {
+                "name": "NEMGU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.216666666666667, 61.67583333333334
+                ]
+            },
+            "properties": {
+                "name": "EGAGO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.383333333333333, 60.323611111111106
+                ]
+            },
+            "properties": {
+                "name": "ADOPI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.844583333333333, 59.329805555555556
+                ]
+            },
+            "properties": {
+                "name": "ROPNO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.608355555555556, 57.90753888888889
+                ]
+            },
+            "properties": {
+                "name": "ALOTI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.183305555555556, 62.72636111111111
+                ]
+            },
+            "properties": {
+                "name": "OSLAV",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.71472222222222, 65.90388888888889
+                ]
+            },
+            "properties": {
+                "name": "BEGDO",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.152083333333332, 67.34172222222223
+                ]
+            },
+            "properties": {
+                "name": "VAGAS",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.0525, 63.33083333333334
+                ]
+            },
+            "properties": {
+                "name": "SOLKA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.589722222222222, 62.38111111111111
+                ]
+            },
+            "properties": {
+                "name": "EVLED",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.7394472222222223, 59.03527777777778   
+                ]
+            },
+            "properties": {
+                "name": "BEREP",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0, 62.0
+                ]
+            },
+            "properties": {
+                "name": "IPTON",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5781694444444445, 61.65458888888889
+                ]
+            },
+            "properties": {
+                "name": "KEKOD",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.073027777777778, 62.840083333333336
+                ]
+            },
+            "properties": {
+                "name": "OSMUM",
+                "icao": "EFRO"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.487555555555555, 63.19955555555556
+                ]
+            },
+            "properties": {
+                "name": "OSS",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.315, 68.6661111111111
+                ]
+            },
+            "properties": {
+                "name": "GOMAV",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.3497222222222,
+                    68.1105555555556
+                ]
+            },
+            "properties": {
+                "name": "EXUTI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.8383333333333,
+                    67.6133333333333
+                ]
+            },
+            "properties": {
+                "name": "GITEV",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.3344444444444,
+                    67.2905555555556
+                ]
+            },
+            "properties": {
+                "name": "TUGPU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.4063888888889,
+                    66.8625
+                ]
+            },
+            "properties": {
+                "name": "OSLIT",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.8241666666667,
+                    62.415
+                ]
+            },
+            "properties": {
+                "name": "BODRI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.7213888888889,
+                    62.9122222222222
+                ]
+            },
+            "properties": {
+                "name": "DIVEG",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.5594444444444,
+                    64.7036111111111
+                ]
+            },
+            "properties": {
+                "name": "GODOB",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.4158333333333,
+                    61.3625
+                ]
+            },
+            "properties": {
+                "name": "BAKLA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.1119444444444,
+                    60.2522222222222
+                ]
+            },
+            "properties": {
+                "name": "EVLAN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.655, 54.916666666666664
+                ]
+            },
+            "properties": {
+                "name": "GORPI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.602333333333334, 56.88361111111111
+                ]
+            },
+            "properties": {
+                "name": "LATVI",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.455, 59.56916666666666
+                ]
+            },
+            "properties": {
+                "name": "ELRID",
+                "icao": "EFRO"
+            }
+        },
+
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.6761111111111,
+                    59.1827777777778
+                ]
+            },
+            "properties": {
+                "name": "KOSKA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16138888888889, 55.63861111111111
+                ]
+            },
+            "properties": {
+                "name": "PENOR",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.4525,
+                    59.7994444444444
+                ]
+            },
+            "properties": {
+                "name": "DOBAN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.059166666666666, 54.3075
+                ]
+            },
+            "properties": {
+                "name": "BOKSU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.299444444444447, 57.9
+                ]
+            },
+            "properties": {
+                "name": "SOKVA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.007777777777778, 54.08
+                ]
+            },
+            "properties": {
+                "name": "DEMUR",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.755555555555556, 56.37138888888889
+                ]
+            },
+            "properties": {
+                "name": "GUNTA",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.863888888888889, 54.505833333333335
+                ]
+            },
+            "properties": {
+                "name": "EKERN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.993333333333334, 54.905277777777776
+                ]
+            },
+            "properties": {
+                "name": "ALS",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.643888888888888, 57.13777777777778
+                ]
+            },
+            "properties": {
+                "name": "VADIN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.294305555555556, 58.16938888888889
+                ]
+            },
+            "properties": {
+                "name": "LABAN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.650333333333335, 59.58622222222222
+                ]
+            },
+            "properties": {
+                "name": "ARS",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1866666666667,
+                    59.8277777777778  
+                ]
+            },
+            "properties": {
+                "name": "INTOR",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.1116666666667,
+                    59.975
+                ]
+            },
+            "properties": {
+                "name": "LEDUN",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.8247222222222,
+                    60.8211111111111
+                ]
+            },
+            "properties": {
+                "name": "TEVRU",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.9188888888889,
+                    61.2166666666667
+                ]
+            },
+            "properties": {
+                "name": "DIPUM",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0155555555556,
+                    61.6125
+                ]
+            },
+            "properties": {
+                "name": "USUPO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0247222222222,
+                    61.8566666666667
+                ]
+            },
+            "properties": {
+                "name": "ROMOP",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0363888888889,
+                    62.1608333333333
+                ]
+            },
+            "properties": {
+                "name": "OTLUD",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0561111111111,
+                    62.6686111111111
+                ]
+            },
+            "properties": {
+                "name": "OSKEK",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.06,
+                    62.7711111111111
+                ]
+            },
+            "properties": {
+                "name": "ADEDO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0813888888889,
+                    63.2994444444444
+                ]
+            },
+            "properties": {
+                "name": "MIMRU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1008333333333,
+                    63.7725
+                ]
+            },
+            "properties": {
+                "name": "ELPOP",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1288888888889,
+                    64.4319444444445 
+                ]
+            },
+            "properties": {
+                "name": "SUVIB",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1291666666667,
+                    65.1472222222222
+                ]
+            },
+            "properties": {
+                "name": "RIBVU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1280555555556,
+                    65.3986111111111
+                ]
+            },
+            "properties": {
+                "name": "ASLUP",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.1241666666667,
+                    66.1083333333333
+                ]
+            },
+            "properties": {
+                "name": "NEPIX",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.503133333333332, 69.87166111111111
+                ]
+            },
+            "properties": {
+                "name": "ERPUG",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.92472222222222, 69.07472222222223
+                ]
+            },
+            "properties": {
+                "name": "MOKAX",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.09861111111111, 68.49138888888888
+                ]
+            },
+            "properties": {
+                "name": "POBEL",
+                "icao": "ESNQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.16777777777778, 68.03383333333334
+                ]
+            },
+            "properties": {
+                "name": "LAPLA",
+                "icao": "ESNQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.083888888888889, 60.20333333333333
+                ]
+            },
+            "properties": {
+                "name": "ENGM",
+                "icao": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.534722222222223, 60.17777777777778
+                ]
+            },
+            "properties": {
+                "name": "MASEV",
+                "icao": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.833333333333334, 60.28333333333333
+                ]
+            },
+            "properties": {
+                "name": "AGWIM",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.291111111111111, 57.660000000000004
+                ]
+            },
+            "properties": {
+                "name": "ESGG",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.625333333333334, 58.25177777777778
+                ]
+            },
+            "properties": {
+                "name": "NEGIL",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.127777777777778, 58.76944444444444
+                ]
+            },
+            "properties": {
+                "name": "ORIGO",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.32472222222222, 68.79111111111111
+                ]
+            },
+            "properties": {
+                "name": "RIXEM",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.755555555555556, 68.95000000000002
+                ]
+            },
+            "properties": {
+                "name": "MANKI",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0180555555556,
+                    66.7083333333333
+                ]
+            },
+            "properties": {
+                "name": "IBSAN",
+                "icao": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.3783333333333,
+                    67.3802777777778
+                ]
+            },
+            "properties": {
+                "name": "AMULU",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.98027777777778, 69.75010555555556
+                ]
+            },
+            "properties": {
+                "name": "KIIKA",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.6475, 62.2872222222222
+                ]
+            },
+            "properties": {
+                "name": "OTVEG",
+                "icao": "EFRO",
+                "type": "hold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7052777777778, 66.1886111111111
+                ]
+            },
+            "properties": {
+                "name": "OLNOP",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.0766666666667, 65.9405555555556
+                ]
+            },
+            "properties": {
+                "name": "XONTU",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.197222222222223, 64.1991111111111
+                ]
+            },
+            "properties": {
+                "name": "KETEL",
+                "icao": "EFRO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.364855555555556, 67.26669166666666
+                ]
+            },
+            "properties": {
+                "name": "BDO",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.214341666666667, 65.45705277777778
+                ]
+            },
+            "properties": {
+                "name": "BNN",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.533504444444445, 67.60678888888889
+                ]
+            },
+            "properties": {
+                "name": "ARDUX",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.68670138888889, 67.9175125
+                ]
+            },
+            "properties": {
+                "name": "IBVIS",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.0349375, 68.57381888888889
+                ]
+            },
+            "properties": {
+                "name": "SKG",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.078783333333333, 68.80323555555556
+                ]
+            },
+            "properties": {
+                "name": "ATKID",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.103483333333333, 69.01848055555556
+                ]
+            },
+            "properties": {
+                "name": "BARVI",
+                "icao": "ENTC"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.7169444444444, 67.0347222222222
+                ]
+            },
+            "properties": {
+                "name": "NEBET",
+                "icao": "ESNQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.697666666666668, 67.36419444444445
+                ]
+            },
+            "properties": {
+                "name": "TERPA",
+                "icao": "ESNQ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.7961111111111,
+                    69.1725
+                ]
+            },
+            "properties": {
+                "name": "GAPRO",
+                "icao": "ENTC"
+            }
+        }
+    ]
+}
