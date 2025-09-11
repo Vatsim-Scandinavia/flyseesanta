@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "Fly and See Santa",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://me.lusep.fi",
+  "homepage": "https://fss.vatsim-scandinavia.org",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

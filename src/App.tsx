@@ -1,17 +1,21 @@
 import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Education from "./components/Education";
-import Contact from "./components/Contact";
+import Airports from "./components/Airports";
+import Routes from "./components/Routes";
+import Briefing from "./components/Briefing";
+import Sceneries from "./components/Sceneries";
+import Livestream from "./components/Livestream";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="font-sans antialiased">
       <Hero />
-      <Projects />
-      <Skills />
-      <Education />
-      <Contact />
+      <Airports />
+      <Routes />
+      <Briefing />
+      <Sceneries />
+      <Livestream />
+      <Footer />
     </div>
   );
 }
