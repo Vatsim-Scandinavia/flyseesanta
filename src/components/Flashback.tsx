@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaHandshake, FaPlaneArrival } from 'react-icons/fa';
+import { FaPlaneArrival } from 'react-icons/fa';
 
 const stats = [
   { year: 2025, efro: 192, entc: 110, esnq: 41 },
@@ -33,17 +33,12 @@ export default function Flashback() {
         transition={{ delay: 0.3 }}
         className="max-w-2xl relative z-10"
       >
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
           Fly and See{' '}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-pink-700">
             Santa
           </span>
         </h1>
-        <p className="md:text-lg text-white mb-6 font-semibold flex items-center gap-6">
-          <span className="flex items-center gap-2">
-            <FaHandshake /> We’ll be back in December 2026!
-          </span>
-        </p>
         <p className="md:text-lg text-gray-300 mb-6">
           <a
             href="https://vatsim-scandinavia.org"
@@ -54,9 +49,10 @@ export default function Flashback() {
             VATSIM Scandinavia
           </a>{' '}
           sends a big thank you to all pilots and controllers for making the Fly
-          and See Santa 2025 event unforgettable!
+          and See Santa 2025 event unforgettable! We’ll be back in December
+          2026.
         </p>
-        <p className="md:text-lg text-white mb-6 font-semibold flex items-center gap-6">
+        <p className="text-white mb-4 font-semibold flex items-center gap-6">
           <span className="flex items-center gap-2">
             <FaPlaneArrival /> Arrival Statistics
           </span>
