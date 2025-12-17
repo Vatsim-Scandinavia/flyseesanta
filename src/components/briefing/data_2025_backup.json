@@ -1,0 +1,194 @@
+{
+    "groups": [
+      {
+        "groupName": "🔴 EFRO",
+        "lastUpdated": "12 DEC 18:40 UTC",
+        "notes": "ATC on break → EFRO SUPER",
+        "positions": [
+          {
+            "positionName": "TWR",
+            "schedule": [
+                { "name": "Tim", "start": "16:30", "end": "17:30" },
+                { "name": "Omar", "start": "17:30", "end": "18:30" },
+                { "name": "Jarno", "start": "18:30", "end": "19:30" },
+                { "name": "Tim", "start": "19:30", "end": "20:30" },
+                { "name": "Omar", "start": "20:30", "end": "21:30" },
+                { "name": "Juuso", "start": "21:30", "end": "22:30" },
+                { "name": "Tim", "start": "22:30", "end": "23:30" }
+            ]
+          },
+          {
+            "positionName": "CLD",
+            "schedule": [
+              { "name": "Juuso", "start": "17:00", "end": "18:00" },
+              { "name": "Tim", "start": "18:00", "end": "19:00" },
+              { "name": "Omar", "start": "19:00", "end": "20:00" },
+              { "name": "Juuso", "start": "20:00", "end": "21:00" },
+              { "name": "Tim", "start": "21:00", "end": "22:00" },
+              { "name": "Omar", "start": "22:00", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "APP",
+            "schedule": [
+              { "name": "Harri", "start": "16:30", "end": "17:30" },
+              { "name": "Ahti", "start": "17:30", "end": "18:30" },
+              { "name": "Juuso", "start": "18:30", "end": "19:30" },
+              { "name": "Harri", "start": "19:30", "end": "20:30" },
+              { "name": "Ahti", "start": "20:30", "end": "21:30" },
+              { "name": "Jarno", "start": "21:30", "end": "22:30" },
+              { "name": "Harri", "start": "22:30", "end": "23:30" }
+            ]
+          },
+          {
+            "positionName": "ARR",
+            "schedule": [
+              { "name": "Jarno", "start": "17:00", "end": "18:00" },
+              { "name": "Harri", "start": "18:00", "end": "19:00" },
+              { "name": "Ahti", "start": "19:00", "end": "20:00" },
+              { "name": "Jarno", "start": "20:00", "end": "21:00" },
+              { "name": "Harri", "start": "21:00", "end": "22:00" },
+              { "name": "Ahti", "start": "22:00", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "FMP",
+            "schedule": [
+              { "name": "Otto", "start": "17:00", "end": "23:00" }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "🔵 Feederit",
+        "lastUpdated": "12 DEC 18:40 UTC",
+        "notes": "NEPIX voi hypätä HK RAD-E jos feederille ei ole tarvetta. Katsotaan tilanteen mukaan.",
+        "positions": [
+          {
+            "positionName": "NEMGU",
+            "schedule": [
+              { "name": "Lukas", "start": "16:30", "end": "17:30" },
+              { "name": "Eemeli", "start": "17:30", "end": "18:30" },
+              { "name": "Veeti", "start": "18:30", "end": "19:30" },
+              { "name": "Lukas", "start": "19:30", "end": "20:30" },
+              { "name": "Eemeli", "start": "20:30", "end": "21:30" },
+              { "name": "Veeti", "start": "21:30", "end": "22:30" },
+              { "name": "Lukas", "start": "22:30", "end": "23:30" }
+            ]
+          },
+          {
+            "positionName": "NEPIX",
+            "schedule": [
+              { "name": "Veeti", "start": "17:00", "end": "18:00" },
+              { "name": "Lukas", "start": "18:00", "end": "19:00" },
+              { "name": "Eemeli", "start": "19:00", "end": "20:00" },
+              { "name": "Veeti", "start": "20:00", "end": "21:00" },
+              { "name": "Lukas", "start": "21:00", "end": "22:00" },
+              { "name": "Eemeli", "start": "22:00", "end": "23:00" }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "🔵 EFIN ACC",
+        "lastUpdated": "13 DEC 11:13 UTC",
+        "notes": "",
+        "positions": [
+          {
+            "positionName": "D",
+            "schedule": [
+              { "name": "Eemil", "start": "16:30", "end": "17:30" },
+              { "name": "Paavo", "start": "17:30", "end": "18:30" },
+              { "name": "Henri", "start": "18:30", "end": "19:30" },
+              { "name": "Vincent", "start": "19:30", "end": "20:30" },
+              { "name": "Richard", "start": "20:30", "end": "21:30" },
+              { "name": "Julius", "start": "21:30", "end": "22:30" },
+              { "name": "Eemil", "start": "22:30", "end": "23:30" }
+            ]
+          },
+          {
+            "positionName": "A",
+            "schedule": [
+              { "name": "Henri", "start": "17:00", "end": "18:00" },
+              { "name": "Eemil", "start": "18:00", "end": "19:00" },
+              { "name": "Paavo", "start": "19:00", "end": "20:00" },
+              { "name": "Julius", "start": "20:00", "end": "21:00" },
+              { "name": "Vincent", "start": "21:00", "end": "22:00" },
+              { "name": "Richard", "start": "22:00", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "J",
+            "schedule": [
+              { "name": "Julius", "start": "17:00", "end": "18:00" },
+              { "name": "Vincent", "start": "18:00", "end": "19:00" },
+              { "name": "Richard", "start": "19:00", "end": "20:00" },
+              { "name": "Henri", "start": "20:00", "end": "21:00" },
+              { "name": "Eemil", "start": "21:00", "end": "22:00" },
+              { "name": "Paavo", "start": "22:00", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "V",
+            "schedule": [
+              { "name": "Vincent", "start": "16:30", "end": "17:30" },
+              { "name": "Richard", "start": "17:30", "end": "18:30" },
+              { "name": "Julius", "start": "18:30", "end": "19:30" },
+              { "name": "Eemil", "start": "19:30", "end": "20:30" },
+              { "name": "Paavo", "start": "20:30", "end": "21:30" },
+              { "name": "Henri", "start": "21:30", "end": "22:30" },
+              { "name": "Vincent", "start": "22:30", "end": "23:30" }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "🔵 EFHK",
+        "lastUpdated": "13 DEC 11:19 UTC",
+        "notes": "Jos löytyy vielä johtajia, tutkaan ja verkostokentille saa hypätä!",
+        "positions": [
+          {
+            "positionName": "HK RAD-E",
+            "schedule": [
+            ]
+          },
+          {"notes": "ATC on break → EFRO SUPER",
+            "positionName": "HK TWR-E",
+            "schedule": [
+              { "name": "Aapo", "start": "17:00", "end": "18:30" },
+              { "name": "Kris", "start": "18:30", "end": "20:00" },
+              { "name": "Alper", "start": "20:00", "end": "21:00" },
+              { "name": "Aapo", "start": "21:00", "end": "22:00" },
+              { "name": "Niko", "start": "22:00", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "HK GND",
+            "schedule": [
+              { "name": "Kris", "start": "17:00", "end": "18:00" },
+              { "name": "Alper", "start": "18:00", "end": "19:30" },
+              { "name": "Niko", "start": "19:30", "end": "21:30" },
+              { "name": "Alper", "start": "21:30", "end": "23:00" }
+            ]
+          },
+          {
+            "positionName": "HK DEL",
+            "schedule": [
+              { "name": "Niko", "start": "17:00", "end": "19:00" },
+              { "name": "Aapo", "start": "19:00", "end": "20:30" },
+              { "name": "Kris", "start": "20:30", "end": "22:30" }
+
+
+            ]
+          },
+          {
+            "positionName": "OU / KS / KT",
+            "schedule": [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

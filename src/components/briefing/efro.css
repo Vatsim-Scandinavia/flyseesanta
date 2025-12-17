@@ -1,0 +1,56 @@
+.cls-1, .cls-2, .cls-3 {
+  fill: none;
+}
+
+.cls-2, .cls-3 {
+  stroke-linejoin: round;
+}
+
+.cls-2 {
+  stroke: #000;
+}
+
+.cls-5, .cls-3, .cls-6 {
+  stroke: #000;
+}
+
+.cls-7 {
+  fill: #aaa;
+}
+
+.cls-7 {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.stand-text-green {
+  fill: #05df72;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+}
+.stand-text-red {
+  fill: #ff6467;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.stand-bg-green {
+  stroke: #00a63e;
+  stroke-opacity: 0.4;
+  fill: #008236;
+  fill-opacity: 0.2;
+}
+.stand-bg-red {
+  stroke: #fb2c36;
+  stroke-opacity: 0.4;
+  fill: #fb2c36;
+  fill-opacity: 0.2;
+}
+
+.cls-6 {
+  fill: #323842;
+}
+  
