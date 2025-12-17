@@ -66,7 +66,7 @@ export function Livestream() {
             {/* YouTube Button */}
             <div className="flex flex-col items-center justify-center mt-6">
               <a
-                href="https://www.youtube.com/watch?v=vlz7ryQzt_0"
+                href="https://youtu.be/cGuu0QfU5rQ?si=1hFpvxjkdnYqGkeT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-2 rounded bg-red-600 hover:bg-red-700 transition shadow-lg"
