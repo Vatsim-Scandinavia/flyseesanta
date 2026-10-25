@@ -13,8 +13,8 @@ const rovaniemi = [
     title: "Rovaniemi",
     image: "images/scenery/efro2.png",
     description: "Payware Scenery by MK-Studios",
-    simulators: ["MSFS 2020"],
-    site: "https://orbxdirect.com/product/mkstudios-efro-msfs",
+    simulators: ["MSFS 2020", "MSFS 2024"],
+    site: "https://inibuilds.com/products/mk-studios-rovaniemi-v2-efro-msfs",
   },
   {
     title: "Rovaniemi",
@@ -117,7 +117,7 @@ export default function Sceneries() {
         <h3 className="text-2xl font-semibold text-blue-400 mb-6">
           EFRO – Rovaniemi
         </h3>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mb-16">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-16">
           {rovaniemi.map((project, idx) => (
             <motion.div
               key={idx}
@@ -162,7 +162,7 @@ export default function Sceneries() {
         <h3 className="text-2xl font-semibold text-blue-400 mb-6">
           ENTC – Tromsø
         </h3>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mb-16">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-16">
           {tromso.map((project, idx) => (
             <motion.div
               key={idx}
@@ -207,7 +207,7 @@ export default function Sceneries() {
         <h3 className="text-2xl font-semibold text-blue-400 mb-6">
           ESNQ – Kiruna
         </h3>
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {kiruna.map((project, idx) => (
             <motion.div
               key={idx}

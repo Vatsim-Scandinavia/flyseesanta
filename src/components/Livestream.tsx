@@ -18,14 +18,7 @@ export function Livestream() {
           L i v e s t r e a m
         </motion.h2>
 
-        {/* Tune in to our Christmas livestream from Finland! */}
-        <p className="md:text-lg text-gray-300 mb-10">
-          Watch our event livestreams from Finland!
-        </p>
-
         {/* Grid for current + previous year streams */}
-        <div className="grid gap-8 md:grid-cols-2">
-          {/* Twitch Embed
           <div>
             <div className="relative aspect-video overflow-hidden shadow-xl border border-white/10 max-w-2xl mx-auto">
               <iframe
@@ -50,7 +43,8 @@ export function Livestream() {
               </a>
             </div>
           </div>
-          */}
+
+        <div className="grid gap-6 md:grid-cols-2 mt-10">
 
           <div>
             <div className="relative aspect-video overflow-hidden shadow-xl border border-white/10 max-w-2xl mx-auto">

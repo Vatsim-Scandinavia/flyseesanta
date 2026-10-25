@@ -219,7 +219,7 @@ export default function Airports() {
 
         {/*
         <h2 className="text-3xl md:text-4xl font-semibold mb-12 mt-16 text-center text-blue-400">
-          S l o t&ensp; B o o k i n g
+          S l o t s
         </h2>
         <p className="md:text-lg text-gray-300 mb-8 text-center">
           Book an arrival slot into any of the event airports, departing from

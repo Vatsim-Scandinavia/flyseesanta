@@ -48,7 +48,7 @@ export default function Hero() {
         </h1>
         <p className="md:text-lg text-white mb-6 font-semibold flex items-center gap-6">
           <span className="flex items-center gap-2">
-            <FaCalendarAlt /> 13 December 2025
+            <FaCalendarAlt /> 12 December 2026
           </span>
           <span className="flex items-center gap-2">
             <FaClock /> 17 – 23 UTC

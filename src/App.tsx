@@ -1,6 +1,6 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './components/Hero';
-import Flashback from './components/Flashback';
+// import Flashback from './components/Flashback';
 import Airports from './components/Airports';
 import RoutesPage from './components/Routes';
 import Briefing from './components/Briefing';
@@ -21,12 +21,12 @@ function App() {
           path="/"
           element={
             <div className="font-sans antialiased">
-              {/* <Hero /> */}
-              <Flashback />
+              <Hero />
+              {/* <Flashback /> */}
               <Airports />
-              {/* <RoutesPage /> */}
-              {/* <Briefing /> */}
-              {/* <Sceneries /> */}
+              <RoutesPage />
+              <Briefing />
+              <Sceneries />
               <Livestream />
               <Footer />
             </div>

@@ -110,81 +110,92 @@ export default function Routes() {
             Arriving in EFRO • Rovaniemi
           </h3>
 
-          <div className="p-6 bg-white/5 border border-white/10 shadow-lg">
-            <div className="flex flex-col md:flex-row gap-4 mb-4 mt-4">
-              <select
-                value={selectedCountry}
-                onChange={(e) => {
-                  setSelectedCountry(e.target.value);
-                  setSelectedAirport('');
-                }}
-                className="flex-1 p-2 rounded bg-black/40 border border-white/20"
-              >
-                <option value="">Select Departure Country</option>
-                {Object.keys(routesData).map((country) => (
-                  <option key={country} value={country}>
-                    {country}
-                  </option>
-                ))}
-              </select>
-              <select
-                value={selectedAirport}
-                onChange={(e) => setSelectedAirport(e.target.value)}
-                disabled={!selectedCountry}
-                className="flex-1 p-2 rounded bg-black/40 border border-white/20"
-              >
-                <option value="">Select Airport</option>
-                {selectedCountry &&
-                  Object.keys(routesData[selectedCountry] || {}).map(
-                    (airport) => (
-                      <option key={airport} value={airport}>
-                        {airport}
-                      </option>
-                    ),
-                  )}
-              </select>
-            </div>
-
-            {suggestedRoute && (
-              <div className="p-4 mt-6 rounded bg-white/5 border border-white/10 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
-                <span className="text-sm text-gray-200">{suggestedRoute}</span>
-                <div className="flex gap-3">
-                  <button
-                    onClick={() => copyToClipboard(suggestedRoute)}
-                    className="px-3 py-1 rounded bg-blue-700 hover:bg-blue-800 text-sm flex items-center gap-2"
-                  >
-                    <FaCopy /> Copy
-                  </button>
-                  <button
-                    onClick={() =>
-                      openSkyVector(suggestedRoute, 'EFRO', selectedAirport)
-                    }
-                    className="px-3 py-1 rounded bg-green-700 hover:bg-green-800 text-sm flex items-center gap-2"
-                  >
-                    <FaExternalLinkAlt /> SkyVector
-                  </button>
-                </div>
-              </div>
-            )}
-          </div>
-
           <div className="flex flex-col mt-4 mb-4">
             <span className="inline-flex items-center gap-2 px-4 py-4 bg-white/5 border border-white/10 text-gray-300 text-sm font-medium">
-              If your departure airport or country is not listed, don’t worry —
-              ATC may provide a re-route or en-route vectoring as necessary.
+              Mandatory Routes to Rovaniemi will be published here before the event.
             </span>
           </div>
 
-          <div className="mt-8 text-center">
-            <a
-              href="https://fss-map.lusep.fi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 rounded bg-blue-800 font-semibold shadow-lg hover:bg-blue-900 transition"
-            >
-              <FaMapMarkedAlt /> Show Mandatory Routes on Map
-            </a>
-          </div>
+          {
+            /*
+            <div className="p-6 bg-white/5 border border-white/10 shadow-lg">
+              <div className="flex flex-col md:flex-row gap-4 mb-4 mt-4">
+                <select
+                  value={selectedCountry}
+                  onChange={(e) => {
+                    setSelectedCountry(e.target.value);
+                    setSelectedAirport('');
+                  }}
+                  className="flex-1 p-2 rounded bg-black/40 border border-white/20"
+                >
+                  <option value="">Select Departure Country</option>
+                  {Object.keys(routesData).map((country) => (
+                    <option key={country} value={country}>
+                      {country}
+                    </option>
+                  ))}
+                </select>
+                <select
+                  value={selectedAirport}
+                  onChange={(e) => setSelectedAirport(e.target.value)}
+                  disabled={!selectedCountry}
+                  className="flex-1 p-2 rounded bg-black/40 border border-white/20"
+                >
+                  <option value="">Select Airport</option>
+                  {selectedCountry &&
+                    Object.keys(routesData[selectedCountry] || {}).map(
+                      (airport) => (
+                        <option key={airport} value={airport}>
+                          {airport}
+                        </option>
+                      ),
+                    )}
+                </select>
+              </div>
+
+              {suggestedRoute && (
+                <div className="p-4 mt-6 rounded bg-white/5 border border-white/10 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+                  <span className="text-sm text-gray-200">{suggestedRoute}</span>
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => copyToClipboard(suggestedRoute)}
+                      className="px-3 py-1 rounded bg-blue-700 hover:bg-blue-800 text-sm flex items-center gap-2"
+                    >
+                      <FaCopy /> Copy
+                    </button>
+                    <button
+                      onClick={() =>
+                        openSkyVector(suggestedRoute, 'EFRO', selectedAirport)
+                      }
+                      className="px-3 py-1 rounded bg-green-700 hover:bg-green-800 text-sm flex items-center gap-2"
+                    >
+                      <FaExternalLinkAlt /> SkyVector
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="flex flex-col mt-4 mb-4">
+              <span className="inline-flex items-center gap-2 px-4 py-4 bg-white/5 border border-white/10 text-gray-300 text-sm font-medium">
+                If your departure airport or country is not listed, don’t worry —
+                ATC may provide a re-route or en-route vectoring if necessary.
+              </span>
+            </div>
+
+            <div className="mt-8 text-center">
+              <a
+                href="https://fss-map.lusep.fi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded bg-blue-800 font-semibold shadow-lg hover:bg-blue-900 transition"
+              >
+                <FaMapMarkedAlt /> Show Mandatory Routes on Map
+              </a>
+            </div>
+             */
+          }
+
         </motion.div>
 
         {/* ENTC */}

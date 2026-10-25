@@ -86,14 +86,14 @@ export default function Briefing() {
         </p>
 
         {/* Pilot Briefing Cards */}
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mb-16">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-16">
           {briefings.map((item, idx) => (
             <a
               key={idx}
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:shadow-xl hover:scale-105 transition transform"
+              className="hover:shadow-xl hover:scale-[102%] transition transform"
             >
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
