@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import EFROBriefing from './components/briefing/efro';
 import EFRO_ATC from './components/briefing/efro_atc';
 
-import Staffing from './components/briefing/staffing';
+import SlotManager from './components/slot_management/SlotManager';
 
 function App() {
   return (
@@ -33,11 +33,13 @@ function App() {
           }
         />
 
+        {/* Slot Management Page */}
+        <Route path="/slots" element={<SlotManager />} />
+
         {/* EFRO Briefing Page */}
         <Route path="/briefing/efro" element={<EFROBriefing />} />
         <Route path="/briefing/finland" element={<EFRO_ATC />} />
 
-        <Route path="/staffing" element={<Staffing />} />
       </Routes>
     </Router>
   );
