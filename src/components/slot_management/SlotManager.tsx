@@ -24,6 +24,8 @@ export default function SlotManager() {
   const [globalNote, setGlobalNote] = useState<string | null>(null);
   const [warnings, setWarnings] = useState<string[]>([]);
   const [vatcanCode, setVatcanCode] = useState('');
+  const [isLoggingIn, setIsLoggingIn] = useState(false);
+  const [loadingMessage, setLoadingMessage] = useState('Authenticating...');
 
   const [newRequest, setNewRequest] = useState({
     callsign: '',
@@ -142,14 +144,29 @@ export default function SlotManager() {
   };
 
   /* Confirm role */
+  /* Confirm role */
   const confirmRole = async () => {
     if (!roleInput.trim()) return;
 
     const cleanCallsign = roleInput.trim().toUpperCase();
-    const loginData = await login(cleanCallsign);
-    if (loginData?.token) {
-      localStorage.setItem('atc_callsign', cleanCallsign);
-      setRole(cleanCallsign);
+    setIsLoggingIn(true);
+    setLoadingMessage('Authenticating...');
+
+    // Timer to catch Render's free-tier spin-down delay (>3-5 seconds)
+    const spinTimer = setTimeout(() => {
+      setLoadingMessage('Starting up the server (this may take up to 50 seconds)...');
+    }, 3000);
+
+    try {
+      const loginData = await login(cleanCallsign);
+      clearTimeout(spinTimer);
+      if (loginData?.token) {
+        localStorage.setItem('atc_callsign', cleanCallsign);
+        setRole(cleanCallsign);
+      }
+    } finally {
+      clearTimeout(spinTimer);
+      setIsLoggingIn(false);
     }
   };
 
@@ -298,16 +315,22 @@ export default function SlotManager() {
                 />
                 <button
                   onClick={confirmRole}
-                  disabled={!roleInput.trim()}
-                  className={`mt-4 px-4 py-2 rounded text-sm font-semibold transition
+                  disabled={!roleInput.trim() || isLoggingIn}
+                  className={`mt-4 w-full sm:w-auto px-6 py-2.5 rounded text-sm font-semibold transition flex items-center justify-center gap-2
                     ${
-                    roleInput.trim()
+                    roleInput.trim() && !isLoggingIn
                       ? 'bg-fuchsia-700 hover:bg-fuchsia-800'
                       : 'bg-white/10 text-white/40 cursor-not-allowed'
                   }
                   `}
                 >
-                  Confirm
+                  {isLoggingIn && (
+                    <svg className="animate-spin h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                  )}
+                  {isLoggingIn ? loadingMessage : 'Confirm'}
                 </button>
               </div>
             )}
@@ -451,8 +474,7 @@ export default function SlotManager() {
                     <div className="flex items-center gap-2 bg-pink-400/10 border-l-4 border-pink-400 text-pink-200 text-sm p-3 rounded">
                       <FaQuestionCircle className="text-pink-300 shrink-0 text-base" />
                       <span>
-                        The release request should be made earliest after the en-route clearance has been requested.
-                        Release is required when a Ground Stop has been issued via ECFMP.
+                        Release requests should be made no earlier than after en-route clearance has been requested. A release is required when a Ground Stop has been issued via ECFMP.
                       </span>
                     </div>
                   </div>

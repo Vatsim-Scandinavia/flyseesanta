@@ -29,7 +29,7 @@ const mandatoryRoutes: Record<string, MandatoryRoute[]> = {
     { description: 'From Kiruna (ESNQ)', route: 'RIXEM DCT MANKI' },
     {
       description: 'From Gardermoen (ENGM)',
-      route: 'RIBBE Z125 SOMUB DCT BNN DCT BDO DCT IBVIS DCT SKG DCT BARVI',
+      route: 'RIBBE DCT GIGNI DCT SOMUB DCT BNN DCT BDO DCT IBVIS DCT SKG DCT BARVI',
     },
     {
       description: 'From the South',
@@ -43,7 +43,7 @@ const mandatoryRoutes: Record<string, MandatoryRoute[]> = {
       route: 'IBSAN DCT NEBET DCT TERPA',
     },
     { description: 'From Tromsø (ENTC)', route: 'MOKAX DCT POBEL DCT LAPLA' },
-    { description: 'From Arlanda (ESSA)', route: 'RESNA T317 VAGAS' },
+    { description: 'From Arlanda (ESSA)', route: 'RESNA DCT OSK DCT OSKIR DCT VAGAS' },
   ],
 };
 
@@ -107,7 +107,7 @@ export default function Routes() {
           className="mb-16"
         >
           <h3 className="text-2xl text-center font-semibold text-blue-400 mb-6">
-            Arriving in EFRO • Rovaniemi
+            Arriving to EFRO • Rovaniemi
           </h3>
 
           <div className="flex flex-col mt-4 mb-4">
@@ -207,7 +207,7 @@ export default function Routes() {
           className="mb-16"
         >
           <h3 className="text-2xl text-center font-semibold text-blue-400 mb-6">
-            Arriving in ENTC • Tromsø
+            Arriving to ENTC • Tromsø
           </h3>
           <div className="space-y-4">
             {mandatoryRoutes.ENTC.map((r, idx) => (
@@ -248,7 +248,7 @@ export default function Routes() {
           transition={{ delay: 0.3 }}
         >
           <h3 className="text-2xl text-center font-semibold text-blue-400 mb-6">
-            Arriving in ESNQ • Kiruna
+            Arriving to ESNQ • Kiruna
           </h3>
           <div className="space-y-4">
             {mandatoryRoutes.ESNQ.map((r, idx) => (

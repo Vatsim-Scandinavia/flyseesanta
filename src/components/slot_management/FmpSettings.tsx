@@ -8,11 +8,13 @@ interface FmpSettingsProps {
   setGlobalNote: (note: string | null) => void;
 }
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
 export default function FmpSettings({
-  role,
-  token,
-  setGlobalNote,
-}: FmpSettingsProps) {
+    role,
+    token,
+    setGlobalNote,
+  }: FmpSettingsProps) {
   const [jsonFile, setJsonFile] = useState<File | null>(null);
   const [vatcanCode, setVatcanCode] = useState('');
   const [note, setNote] = useState('');
@@ -29,13 +31,13 @@ export default function FmpSettings({
     const fetchData = async () => {
       try {
         const [noteRes, settingsRes, codeRes] = await Promise.all([
-          axios.get('http://localhost:3001/api/fmp/note', {
+          axios.get(`${API_URL}/api/fmp/note`, {
             headers: { Authorization: `Bearer ${token}` },
           }),
-          axios.get('http://localhost:3001/api/fmp/settings', {
+          axios.get(`${API_URL}/api/fmp/settings`, {
             headers: { Authorization: `Bearer ${token}` },
           }),
-          axios.get('http://localhost:3001/api/fmp/code'),
+          axios.get(`${API_URL}/api/fmp/code`),
         ]);
 
         if (noteRes.data.note) setNote(noteRes.data.note);
@@ -57,7 +59,7 @@ export default function FmpSettings({
     try {
       const data = await jsonFile.text();
       await axios.post(
-        'http://localhost:3001/api/json/fmp/upload',
+        `${API_URL}/api/json/fmp/upload`,
         { slotsJson: JSON.parse(data) },
         { headers: { Authorization: `Bearer ${token}` } },
       );
@@ -74,7 +76,7 @@ export default function FmpSettings({
     setLoading(true);
     try {
       await axios.post(
-        'http://localhost:3001/api/json/fmp/reset',
+        `${API_URL}/api/json/fmp/reset`,
         {},
         { headers: { Authorization: `Bearer ${token}` } },
       );
@@ -89,7 +91,7 @@ export default function FmpSettings({
   const handleSaveNote = async () => {
     try {
       await axios.post(
-        'http://localhost:3001/api/fmp/note',
+        `${API_URL}/api/fmp/note`,
         { note },
         { headers: { Authorization: `Bearer ${token}` } },
       );
@@ -104,8 +106,8 @@ export default function FmpSettings({
   const handleSaveCode = async () => {
     try {
       await axios.post(
-        'http://localhost:3001/api/fmp/code',
-        { code: vatcanCode }, // ✅ CORRECT
+        `${API_URL}/api/fmp/code`,
+        { code: vatcanCode },
         { headers: { Authorization: `Bearer ${token}` } },
       );
       alert('VATCAN Code saved');
@@ -118,7 +120,7 @@ export default function FmpSettings({
   const handleSaveAutoRelease = async () => {
     try {
       await axios.post(
-        'http://localhost:3001/api/fmp/settings',
+        `${API_URL}/api/fmp/settings`,
         { uk_ire: ukIre, ec, scandi },
         { headers: { Authorization: `Bearer ${token}` } },
       );
@@ -137,7 +139,7 @@ export default function FmpSettings({
         onClick={async () => {
           if (!token) return alert('Login first');
           try {
-            const res = await axios.get('http://localhost:3001/api/json/json', {
+            const res = await axios.get(`${API_URL}/api/json/json`, {
               headers: { Authorization: `Bearer ${token}` },
             });
             const blob = new Blob([JSON.stringify(res.data, null, 2)], {
@@ -149,7 +151,7 @@ export default function FmpSettings({
             link.download = 'slots.json';
             link.click();
             URL.revokeObjectURL(url);
-          } catch (err) {
+          } catch (err: any) {
             alert(err.response?.data?.error || 'Error downloading JSON');
           }
         }}

@@ -81,7 +81,7 @@ export default function Airports() {
     kiruna: null,
   });
   const [timeLeft, setTimeLeft] = useState<number | null>(null);
-  const bookingOpens = new Date(Date.UTC(2025, 10, 21, 12, 0, 0));
+  const bookingOpens = new Date(Date.UTC(2026, 11, 1, 12, 0, 0));
 
   useEffect(() => {
     const updateCountdown = () => {
@@ -217,7 +217,6 @@ export default function Airports() {
           ))}
         </div>
 
-        {/*
         <h2 className="text-3xl md:text-4xl font-semibold mb-12 mt-16 text-center text-blue-400">
           S l o t s
         </h2>
@@ -282,7 +281,7 @@ export default function Airports() {
             Pilots with no slots may expect indefinite delays
           </span>
         </p>
-        */}
+
       </div>
     </section>
   );
